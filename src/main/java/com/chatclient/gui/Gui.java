@@ -1,7 +1,6 @@
 package com.chatclient.gui;
 
 import com.chatclient.service.ChatServiceClient;
-import javafx.scene.Scene;
 import org.apache.xmlrpc.XmlRpcClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.builder.SpringApplicationBuilder;
@@ -9,11 +8,15 @@ import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.net.MalformedURLException;
+import java.awt.event.KeyEvent;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
 import java.util.Vector;
 
 @Component
@@ -28,36 +31,52 @@ public class Gui extends JFrame {
     String userId;
     JFrame frame;
     public boolean XMLRPCMode = false;
-    public Gui(){
+    public Gui() throws IOException {
         initUI();
     }
 
-    private void initUI() {
+    private void initUI() throws IOException {
 
         //Creating the Frame
         frame = new JFrame("Chat Frame");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(600, 400);
 
+        BufferedImage myPicture = ImageIO.read(new File("/home/justyna/Desktop/ChatClient-master/chat.png"));
+        JLabel picLabel = new JLabel(new ImageIcon(myPicture));
 
         //Creating the panel at bottom and adding components
         JPanel panel = new JPanel(); // the panel is not visible in output
-        JLabel label = new JLabel("Enter Text");
-        JTextField inputMessageTextField = new JTextField(20); // accepts upto 10 characters
-        JButton buttonSend = new JButton("Send");
+        JLabel label = new JLabel("");
+        JTextField inputMessageTextField = new JTextField(35); // accepts upto 10 characters
+        JButton buttonSend = new JButton(">");
         JButton buttonServiceType = new JButton("Hessian");
+        panel.setForeground(Color.DARK_GRAY);
+        panel.setBackground(Color.DARK_GRAY);
+        panel.add(buttonServiceType);
         panel.add(label); // Components Added using Flow Layout
         panel.add(inputMessageTextField);
+        inputMessageTextField.setBackground(Color.DARK_GRAY);
+        inputMessageTextField.setForeground(Color.WHITE);
         panel.add(buttonSend);
-        panel.add(buttonServiceType);
+
+        label.setBackground(Color.DARK_GRAY);
+        buttonSend.setBackground(Color.PINK);
+        buttonServiceType.setBackground(Color.PINK);
+
+
 
         // Text Area at the Center
         chatArea = new JTextArea();
-
+        chatArea.setBackground(Color.DARK_GRAY);
+        chatArea.setDisabledTextColor(Color.WHITE);
+        chatArea.setCaretColor(Color.WHITE);
+        chatArea.setForeground(Color.WHITE);
         //Adding Components to the frame.
         frame.getContentPane().add(BorderLayout.SOUTH, panel);
         frame.getContentPane().add(BorderLayout.CENTER, chatArea);
         frame.setVisible(true);
+        frame.setBackground(Color.DARK_GRAY);
 
 
         buttonSend.addActionListener(new ActionListener() {
@@ -105,6 +124,8 @@ public class Gui extends JFrame {
         "");
         userId = result;
         frame.setTitle(userId);
+        frame.setBackground(Color.DARK_GRAY);
+        frame.setForeground(Color.DARK_GRAY);
         return result;
     }
 

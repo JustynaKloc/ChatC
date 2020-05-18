@@ -28,7 +28,7 @@ public class Client {
     @Bean
     public XmlRpcClient XmlRpcClient (){
         try {
-            XmlRpcClient xmlRpcClient = new XmlRpcClient("http://localhost/RPC2");
+            XmlRpcClient xmlRpcClient = new XmlRpcClient("http://localhost:8884");
             return xmlRpcClient;
         } catch (Exception exception) {
             System.err.println("JavaClient: " + exception);
