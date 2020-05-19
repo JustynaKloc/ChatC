@@ -54,7 +54,7 @@ public class Gui extends JFrame {
         panel.setForeground(Color.DARK_GRAY);
         panel.setBackground(Color.DARK_GRAY);
         panel.add(buttonServiceType);
-        panel.add(label); // Components Added using Flow Layout
+        panel.add(label); // dodawanie do panelu
         panel.add(inputMessageTextField);
         inputMessageTextField.setBackground(Color.DARK_GRAY);
         inputMessageTextField.setForeground(Color.WHITE);

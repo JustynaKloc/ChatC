@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3164f849-1700-4f86-bf93-bc70b3c83d59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chatclient/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chatclient/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/chatclient/gui/Gui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chatclient/gui/Gui.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chatclient/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chatclient/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chatclient/gui/Gui$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chatclient/gui/Gui$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chatclient/gui/Gui$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chatclient/gui/Gui$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chatclient/gui/Gui.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chatclient/gui/Gui.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,46 +154,46 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="217" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1589795798805" />
-    <state x="747" y="231" key="FileChooserDialogImpl" timestamp="1589796375116">
+    <state x="747" y="231" key="FileChooserDialogImpl" timestamp="1589831003038">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="747" y="231" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1589796375116" />
-    <state width="1874" height="233" key="GridCell.Tab.0.bottom" timestamp="1589817251465">
+    <state x="747" y="231" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1589831003038" />
+    <state width="1874" height="239" key="GridCell.Tab.0.bottom" timestamp="1589871059737">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state width="1874" height="477" key="GridCell.Tab.0.bottom/0.0.1920.1044/0.0.1920.1044@0.0.1920.1044" timestamp="1589705432222" />
-    <state width="1874" height="233" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1589817251465" />
-    <state width="1874" height="233" key="GridCell.Tab.0.center" timestamp="1589817251465">
+    <state width="1874" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1589871059737" />
+    <state width="1874" height="239" key="GridCell.Tab.0.center" timestamp="1589871059736">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state width="1874" height="477" key="GridCell.Tab.0.center/0.0.1920.1044/0.0.1920.1044@0.0.1920.1044" timestamp="1589705432221" />
-    <state width="1874" height="233" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1589817251465" />
-    <state width="1874" height="233" key="GridCell.Tab.0.left" timestamp="1589817251464">
+    <state width="1874" height="239" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1589871059736" />
+    <state width="1874" height="239" key="GridCell.Tab.0.left" timestamp="1589871059736">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state width="1874" height="477" key="GridCell.Tab.0.left/0.0.1920.1044/0.0.1920.1044@0.0.1920.1044" timestamp="1589705432221" />
-    <state width="1874" height="233" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1589817251464" />
-    <state width="1874" height="233" key="GridCell.Tab.0.right" timestamp="1589817251465">
+    <state width="1874" height="239" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1589871059736" />
+    <state width="1874" height="239" key="GridCell.Tab.0.right" timestamp="1589871059736">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state width="1874" height="477" key="GridCell.Tab.0.right/0.0.1920.1044/0.0.1920.1044@0.0.1920.1044" timestamp="1589705432221" />
-    <state width="1874" height="233" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1589817251465" />
-    <state x="601" y="223" key="NewModule_or_Project.wizard" timestamp="1589437399750">
+    <state width="1874" height="239" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1589871059736" />
+    <state x="601" y="223" key="NewModule_or_Project.wizard" timestamp="1589831006614">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="601" y="223" key="NewModule_or_Project.wizard/0.0.1920.1044@0.0.1920.1044" timestamp="1589437399750" />
+    <state x="601" y="223" key="NewModule_or_Project.wizard/0.0.1920.1044@0.0.1920.1044" timestamp="1589831006614" />
     <state x="447" y="101" key="SettingsEditor" timestamp="1589796377416">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="447" y="101" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1589796377416" />
-    <state x="639" y="353" key="com.intellij.ide.util.TipDialog" timestamp="1589817200940">
+    <state x="639" y="353" key="com.intellij.ide.util.TipDialog" timestamp="1589827953711">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="639" y="353" key="com.intellij.ide.util.TipDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1589817200940" />
-    <state x="339" y="227" key="new project wizard" timestamp="1589437388793">
+    <state x="639" y="353" key="com.intellij.ide.util.TipDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1589827953711" />
+    <state x="339" y="227" key="new project wizard" timestamp="1589830979583">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="339" y="227" key="new project wizard/0.0.1920.1044@0.0.1920.1044" timestamp="1589437388793" />
+    <state x="339" y="227" key="new project wizard/0.0.1920.1044@0.0.1920.1044" timestamp="1589830979583" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ChatClient_master$Server.ic" NAME="Server Coverage Results" MODIFIED="1589817220151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
